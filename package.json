@@ -8,6 +8,13 @@
     "build": "tsc",
     "test": "echo \"No tests yet\""
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "electron": "^24.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "antd": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  }
 }
