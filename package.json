@@ -1,0 +1,13 @@
+{
+  "name": "android-automator",
+  "version": "0.1.0",
+  "description": "Electron app to interact with Android devices via adb",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
