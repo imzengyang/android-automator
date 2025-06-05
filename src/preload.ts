@@ -1,4 +1,5 @@
-// Expose limited APIs to the renderer
-window.addEventListener('DOMContentLoaded', () => {
-  // Placeholder for preload logic
+import { contextBridge, ipcRenderer } from 'electron';
+
+contextBridge.exposeInMainWorld('api', {
+  getDeviceInfo: () => ipcRenderer.invoke('get-device-info')
 });
